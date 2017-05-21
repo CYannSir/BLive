@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.longinusl33t.blive">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BLive"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="BiLive"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VipActivity"
+            android:label="大会员"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IntegrationActivity"
+            android:label="会员积分"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DownloadActivity"
+            android:label="管理缓存"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="我的收藏"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConcernActivity"
+            android:label="我的关注"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="设置与帮助"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".GamesActivity"
+            android:label="游戏中心"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

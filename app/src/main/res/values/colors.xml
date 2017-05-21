@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F06292</color>
+    <color name="colorPrimaryDark">#EC407A</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="nav_head_image_background">#F8668D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="nav_head_roung_text_background">#FB7BA0</color>
+    <color name="nav_head_round_background">#FDC7D6</color>
+
+    <!--CYann添加-->
+    <color name="vip_button_text_color">#FE6F70</color>
+    <color name="vip_button_bg_color">#FEB1B3</color>
+    <color name="font_normal">#555555</color>
+    <!--CYann添加-->
+</resources>

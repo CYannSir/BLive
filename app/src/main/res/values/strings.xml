@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BLive</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="Longinus">Longinus</string>
+
+    <string name="level_text">LV2</string>
+
+    <string name="members">正式会员</string>
+
+    <!--CYann添加-->
+    <string name="item_vip">我的大会员</string>
+    <string name="vip_message_1">您还不是</string>
+    <string name="vip">大会员</string>
+    <string name="vip_message_2">哦</string>
+    <string name="vip_message_3">黑科技在召唤</string>
+    <string name="immediately_opened">立即开通</string>
+    <string name="all_start">全部开始</string>
+    <!--CYann添加-->
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="default_grow_margin">20dp</dimen>
+    <dimen name="default_general_margin">10dp</dimen>
+    <dimen name="default_tiny_padding">5dp</dimen>
+    <dimen name="default_small_text_size">14sp</dimen>
+    <dimen name="default_tiny_margin">3dp</dimen>
+    <dimen name="navigation_subtitle_secondary_text_size">14sp</dimen>
+    <dimen name="default_medium_text_size">16sp</dimen>
+
+
+    <!--CYann添加-->
+    <dimen name="chase_bangumi_card_height">150dp</dimen>
+    <dimen name="chase_bangumi_image_width">100dp</dimen>
+    <dimen name="chase_bangumi_image_height">130dp</dimen>
+    <dimen name="vip_head_layout_height">330dp</dimen>
+    <dimen name="vip_head_image_margin_top">50dp</dimen>
+    <dimen name="vip_toolbar_title_margin_start">30dp</dimen>
+    <dimen name="home_topic_head_layout_height">40dp</dimen>
+    <dimen name="app_logo_size">120dp</dimen>
+    <dimen name="about_bottom_layout_height">50dp</dimen>
+    <dimen name="region_recommend_icon_size">40dp</dimen>
+    <dimen name="search_archive_image_width">160dp</dimen>
+    <dimen name="search_movie_image_width">120dp</dimen>
+    <dimen name="search_movie_image_height">160dp</dimen>
+    <dimen name="search_upper_avatar_size">70dp</dimen>
+    <dimen name="tab_bar_item_padding">15dp</dimen>
+    <dimen name="tags_radius">50dp</dimen>
+    <dimen name="bottom_shadow_height">50dp</dimen>
+    <dimen name="app_bar_elevation">3dp</dimen>
+    <dimen name="default_big_large_text_size">22sp</dimen>
+    <dimen name="default_tiny_text_size">12sp</dimen>
+    <dimen name="login_button_height">45dp</dimen>
+    <dimen name="bottom_layout_height">60dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <string name="edit">编辑</string>
+
+    <!--CYann添加-->
+</resources>
