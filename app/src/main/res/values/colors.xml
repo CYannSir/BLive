@@ -12,5 +12,7 @@
     <color name="vip_button_text_color">#FE6F70</color>
     <color name="vip_button_bg_color">#FEB1B3</color>
     <color name="font_normal">#555555</color>
+    <color name="black_alpha_45">#71000000</color>
+    <color name="gray_light">#dcdcdc</color>
     <!--CYann添加-->
 </resources>
