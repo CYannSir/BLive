@@ -1,19 +1,18 @@
 package com.example.longinusl33t.blive;
 
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.text.format.Formatter;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.TextView;
+import android.view.View;
+
+
 
 public class DownloadActivity extends AppCompatActivity {
 
+    View coordinatorLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +38,10 @@ public class DownloadActivity extends AppCompatActivity {
             case android.R.id.home:
                 finish();
                 break;
-
+            case R.id.id_action_download:
+                Snackbar.make(findViewById(android.R.id.content), "离线下载", Snackbar.LENGTH_SHORT)
+                .show();
+                break;
             default:
                 break;
         }
