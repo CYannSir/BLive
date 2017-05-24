@@ -5,6 +5,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.text.format.Formatter;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.TextView;
 
 public class DownloadActivity extends AppCompatActivity {
 
@@ -39,4 +45,8 @@ public class DownloadActivity extends AppCompatActivity {
         }
         return true;
     }
+    
+
+
+
 }
