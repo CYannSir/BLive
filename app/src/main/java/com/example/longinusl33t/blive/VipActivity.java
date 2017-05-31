@@ -5,9 +5,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 public class VipActivity extends AppCompatActivity {
-
+    private WebView webView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +20,14 @@ public class VipActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //设置返回按钮显示
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        webView = new WebView(this);
+        webView = (WebView) findViewById(R.id.vip_webView);
+        //设置WebView属性，能够执行Javascript脚本
+        webView.getSettings().setJavaScriptEnabled(true);
+        //加载需要显示的网页
+        webView.loadUrl("http://vip.bilibili.com/site/vip-faq-h5.html#yv1");
+
     }
 
 

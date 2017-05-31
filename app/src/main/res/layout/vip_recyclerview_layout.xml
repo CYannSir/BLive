@@ -31,9 +31,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
-
         android:text="大会员专享1080P画质（需要片源支持）
 大会员可享番剧和影视1080P画质，觉醒超凡视觉体验"
+        android:textSize="16sp"
         android:layout_below="@+id/vip_linearlayout"
         />
 
