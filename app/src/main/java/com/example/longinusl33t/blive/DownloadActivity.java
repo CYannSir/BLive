@@ -1,22 +1,37 @@
 package com.example.longinusl33t.blive;
 
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class DownloadActivity extends AppCompatActivity {
 
-    View coordinatorLayout;
+    private TabLayout tabs;
+    private ViewPager viewPager ;
+    private List<String> DTitle = new ArrayList<String>();
+    private List<Fragment> DFragment = new ArrayList<Fragment>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_download);
+        /*
+        initView();
+        MyAdapter adapter = new MyAdapter(getSupportFragmentManager(), DTitle, DFragment);
+        viewPager.setAdapter(adapter);
+        tabs.setupWithViewPager(viewPager);
+        tabs.setTabsFromPagerAdapter(adapter);
+        */
 
         //toolbar实例添加
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -47,8 +62,21 @@ public class DownloadActivity extends AppCompatActivity {
         }
         return true;
     }
-    
+
+/*
+    //初始化V
+    private void initView() {
+
+        tabs = (TabLayout) findViewById(R.id.tabs_download);
+        viewPager = (ViewPager) findViewById(R.id.viewpager_download);
 
 
+        DFragment.add(new Download_Ok());
+        DFragment.add(new Download_Loading());
+
+
+    }
+
+*/
 
 }
