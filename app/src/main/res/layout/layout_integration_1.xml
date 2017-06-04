@@ -18,4 +18,281 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        >
+
+        <TextView
+            android:id="@+id/dahuiyuan_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="大会员"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dahuiyuan_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dahuiyuan_1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="1250积分/月"
+            android:textColor="@color/black_alpha_45"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:text="兑换"
+            android:background="@drawable/btn"
+            android:textSize="14sp"
+            android:textColor="@color/nav_head_roung_text_background"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_alpha_45"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/dahuiyuan_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="年度大会员"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dahuiyuan_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dahuiyuan_1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="11500积分/月"
+            android:textColor="@color/black_alpha_45"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:text="兑换"
+            android:textSize="14sp"
+            android:textColor="@color/nav_head_roung_text_background" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#E4E4E4"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="如何获得会员积分"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/huiyuanjifen_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="找感兴趣的番剧"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/huiyuanjifen_1"
+            android:layout_marginTop="8dp"
+            android:text="去bilibili番剧区找可承包的感兴趣的番剧
+去找番剧>>"
+            android:textColor="@color/black_alpha_45"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/textView" />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/black_alpha_45"
+        />
+    <RelativeLayout
+    android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/huiyuanjifen_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成功承包番剧"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/huiyuanjifen_1"
+        android:layout_marginTop="8dp"
+        android:text="成功承包感兴趣的番剧
+并获得会员积分"
+        android:textColor="@color/black_alpha_45"
+        android:layout_marginLeft="8dp"
+        />
+
+ </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/black_alpha_45"
+        />
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/huiyuanjifen_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获得会员积分"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/huiyuanjifen_1"
+            android:layout_marginTop="8dp"
+            android:text="每成功承包18币（不包含B币卷）
+即可获得50点会员积分"
+            android:textColor="@color/black_alpha_45"
+            android:layout_marginLeft="8dp"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/black_alpha_45"
+        />
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/huiyuanjifen_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="兑换大会员"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/huiyuanjifen_1"
+            android:layout_marginTop="8dp"
+            android:text="会员积分达到1250分
+即可兑换1个月大会员"
+            android:textColor="@color/black_alpha_45"
+            android:layout_marginLeft="8dp"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/black_alpha_45"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenxintishi_1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="温馨提示"
+            android:textSize="16sp"
+            android:textColor="@color/nav_head_roung_text_background"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenxintishi_2"
+            android:layout_below="@+id/wenxintishi_1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="·承包中消费B币卷的部分不获得积分"
+            android:textColor="@color/black_alpha_45"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenxintishi_3"
+            android:layout_below="@id/wenxintishi_2"
+            android:layout_marginLeft="8dp"
+            android:text="·后续将推出更多获取积分的途径哦~"
+            android:textColor="@color/black_alpha_45"
+            android:textSize="16sp"
+            />
+
+
+
+    </RelativeLayout>
+
 </LinearLayout>

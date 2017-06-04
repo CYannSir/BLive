@@ -28,13 +28,13 @@ public class DownloadActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_download);
-        /*
+
         initView();
         MyAdapter adapter = new MyAdapter(getSupportFragmentManager(), DTitle, DFragment);
         viewPager.setAdapter(adapter);
         tabs.setupWithViewPager(viewPager);
         tabs.setTabsFromPagerAdapter(adapter);
-        */
+
 
         //toolbar实例添加
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -85,13 +85,14 @@ public class DownloadActivity extends AppCompatActivity {
         return true;
     }
 
-/*
+
     //初始化V
     private void initView() {
 
-        tabs = (TabLayout) findViewById(R.id.tabs_download);
-        viewPager = (ViewPager) findViewById(R.id.viewpager_download);
-
+        tabs = (TabLayout) findViewById(R.id.tabs);
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        DTitle.add("已缓存");
+        DTitle.add("缓存中");
 
         DFragment.add(new Download_Ok());
         DFragment.add(new Download_Loading());
@@ -99,7 +100,7 @@ public class DownloadActivity extends AppCompatActivity {
 
     }
 
-*/
+
 
     private int countProgress(long phoneTotalSize, long phoneAvailableSize) {
 

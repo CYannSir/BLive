@@ -6,13 +6,31 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 public class IntegrationActivity extends AppCompatActivity {
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_integration);
-
+       // recyclerView = (RecyclerView) findViewById(R.id.integration_recycleview );
+/*
+        initData();
+        recycleAdapter= new Integration_Adapter(IntegrationActivity.this , mDatas );
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        //设置布局管理器
+        recyclerView.setLayoutManager(layoutManager);
+        //设置为垂直布局，这也是默认的
+        layoutManager.setOrientation(OrientationHelper.VERTICAL);
+        //设置Adapter
+        recyclerView.setAdapter( recycleAdapter);
+        //设置增加或删除条目的动画
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+*/
         //toolbar实例添加
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //使得TOOLBAR像actionbar一样运行
@@ -39,4 +57,7 @@ public class IntegrationActivity extends AppCompatActivity {
         }
         return true;
     }
+
+
+
 }
