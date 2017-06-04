@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenxintishi_1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="温馨提示"
+            android:textSize="20sp"
+            android:textColor="@color/nav_head_roung_text_background"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenxintishi_2"
+            android:layout_below="@+id/wenxintishi_1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="·承包中消费B币卷的部分不获得积分"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenxintishi_3"
+            android:layout_below="@id/wenxintishi_2"
+            android:layout_marginLeft="8dp"
+            android:text="·后续将推出更多获取积分的途径哦~"
+            android:textSize="16sp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        >
+
+        <TextView
+            android:id="@+id/dahuiyuan_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="大会员"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dahuiyuan_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dahuiyuan_1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="1250积分/月"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:text="兑换"
+            android:textColor="@color/nav_head_roung_text_background"
+
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
