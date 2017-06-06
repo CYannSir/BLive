@@ -59,6 +59,7 @@ public class DownloadActivity extends AppCompatActivity {
         mCacheSize.setText("主存储:" + totalSizeStr + "/" + "可用:" + availabSizeStr);
 
         CustomEmptyView mEmptyLayout = (CustomEmptyView) findViewById(R.id.empty_layout);
+
         assert mEmptyLayout != null;
         mEmptyLayout.setEmptyImage(R.drawable.img_tips_error_no_downloads);
         mEmptyLayout.setEmptyText("没有找到你的缓存哟");
@@ -112,5 +113,6 @@ public class DownloadActivity extends AppCompatActivity {
         double v = (size / Math.floor(totalSize)) * 100;
         return (int) Math.floor(v);
     }
+
 
 }

@@ -14,11 +14,17 @@ import android.widget.TextView;
  */
 
 public class Download_Ok extends Fragment{
+    private CustomEmptyView customEmptyView;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.layout_download_ok, null);
+
+        customEmptyView = (CustomEmptyView) view.findViewById(R.id.empty_ok_layout);
+        assert customEmptyView != null;
+        customEmptyView.setEmptyImage(R.drawable.img_tips_error_no_downloads);
+        customEmptyView.setEmptyText("没有找到你的缓存哟");
 
         return view;
     }

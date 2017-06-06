@@ -9,10 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:id="@+id/Cardview_download_ok_example"
+        android:visibility="invisible"
         >
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/RelativeLayout_download_loading_example"
+
+            >
             <ImageView
                 android:id="@+id/image_download_example"
                 android:layout_width="140dp"
@@ -102,6 +107,13 @@ Stand(谁笑到最后)的研究..."
 
 
     </android.support.v7.widget.CardView>
+
+    <com.example.longinusl33t.blive.CustomEmptyView
+        android:id="@+id/empty_ok_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
 
 
 
