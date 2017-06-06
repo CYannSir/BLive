@@ -5,4 +5,90 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RelativeLayout_download_example"
+            >
+            <ImageView
+                android:id="@+id/image_download_example"
+                android:layout_width="140dp"
+                android:layout_height="96dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/download_example"
+                />
+
+            <TextView
+                android:id="@+id/text_download_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="【植物大战僵尸】关于Last
+Stand(谁笑到最后)的研究..."
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/image_download_example"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text="PC端"
+                android:textColor="@color/black_alpha_45"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/image_download_example"
+                android:layout_below="@id/text_download_example"
+                />
+
+            <Button
+                android:id="@+id/xiangqing_download_loding_example"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_file_download_grey600_24dp"
+                />
+
+            <TextView
+                android:id="@+id/xiazai_download_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="88dp"
+                android:layout_marginRight="8dp"
+                android:text="下载"
+                android:textColor="@color/black_alpha_45"
+                android:textSize="16sp"
+                android:layout_toLeftOf="@id/xiangqing_download_loding_example"
+                />
+            <com.example.longinusl33t.blive.NumberProgressBar
+                android:id="@+id/progress_bar_download"
+                style="@style/NumberProgressBar_Beauty_Red"
+                android:layout_width="match_parent"
+                android:indeterminate="true"
+                android:indeterminateDuration="3000"
+                android:indeterminateBehavior="repeat"
+                android:layout_height="4dp"
+                android:layout_margin="8dp"
+                app:progress_max="100"
+                app:progress_text_visibility="invisible"
+                android:layout_below="@id/xiazai_download_example"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
 </LinearLayout>

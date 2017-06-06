@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/vip"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/default_medium_text_size" />
+                    android:textSize="20sp" />
 
 
             </android.support.v7.widget.Toolbar>
