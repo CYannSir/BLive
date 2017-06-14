@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -28,6 +30,7 @@ public class Download_Loading extends Fragment implements OnProgressBarListener 
     private CustomEmptyView customEmptyView_ok;
 
 
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -37,6 +40,7 @@ public class Download_Loading extends Fragment implements OnProgressBarListener 
         cardView= (CardView) view.findViewById(R.id.Cardview_download_loading_example);
         cardView_ok = (CardView) getActivity().findViewById(R.id.Cardview_download_ok_example);
 
+
         customEmptyView = (CustomEmptyView) view.findViewById(R.id.empty_loading_layout);
         customEmptyView_ok = (CustomEmptyView) getActivity().findViewById(R.id.empty_ok_layout);
 
@@ -45,6 +49,7 @@ public class Download_Loading extends Fragment implements OnProgressBarListener 
         button.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        button.setBackgroundResource(R.drawable.ic_pause_grey600_24dp);
 
                         timer = new Timer();
                         timer.schedule(new TimerTask() {
