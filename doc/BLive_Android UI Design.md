@@ -16,7 +16,7 @@ Github Address: https://github.com/CYannSir/BLive.git
 
 ##Material Design规范
 ### “我的大会员”界面
-![](D:\CYann_WorkSpace\AS_WorkSpace\BLive_CYann\doc\rec\1.png =300x500)
+![](D:\CYann_WorkSpace\AS_WorkSpace\BLive_CYann\doc\rec\1.png )
    上图为最终```Axsure RP```制作的显示效果
 ![](D:\CYann_WorkSpace\AS_WorkSpace\BLive_CYann\doc\rec\2.png)
    上图为最终```Android Studio```制作的显示效果
@@ -40,6 +40,9 @@ Github Address: https://github.com/CYannSir/BLive.git
 4. 48dp 
 5. 8dp
 ```
+
+
+
 ###“离线缓存”界面
 ![](D:\CYann_WorkSpace\AS_WorkSpace\BLive_CYann\doc\rec\6.png)
 ![](D:\CYann_WorkSpace\AS_WorkSpace\BLive_CYann\doc\rec\7.png)
